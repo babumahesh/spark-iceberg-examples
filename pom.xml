@@ -82,6 +82,44 @@
             <artifactId>scala-collection-compat_2.12</artifactId> <!-- or _2.13 for Scala 2.13 -->
             <version>2.6.0</version> <!-- Choose a compatible version -->
         </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/glue -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>glue</artifactId>
+            <version>2.30.31</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.iceberg/iceberg-aws -->
+        <dependency>
+            <groupId>org.apache.iceberg</groupId>
+            <artifactId>iceberg-aws</artifactId>
+            <version>1.8.1</version>
+<!--            <scope>runtime</scope>-->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/sts -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>sts</artifactId>
+            <version>2.30.31</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/s3 -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>2.30.31</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/kms -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>kms</artifactId>
+            <version>2.30.31</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>dynamodb</artifactId>
+            <version>2.30.31</version>
+        </dependency>
+
     </dependencies>
 
     <build>
